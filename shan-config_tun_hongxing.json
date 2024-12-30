@@ -92,7 +92,7 @@
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["{all}"],"filter": [{ "action": "exclude", "keywords": ["IPV6|剩余|距离|套餐|官网|节点"] }] },
     { "tag": "🎯 全球直连", "type": "direct" },
     { "tag": "dns-out", "type": "dns" },
-    { "tag": "block", "type": "adblock" }
+    { "tag": "adblock", "type": "block" }
   ],
   
   "route": {
